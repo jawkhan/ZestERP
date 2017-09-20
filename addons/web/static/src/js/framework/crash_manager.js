@@ -55,7 +55,7 @@ var CrashManager = core.Class.extend({
             return;
         }
         if (error.data.name === "openerp.http.SessionExpiredException" || error.data.name === "werkzeug.exceptions.Forbidden") {
-            this.show_warning({type: "Session Expired", data: { message: _t("Your Odoo session expired. Please refresh the current web page.") }});
+            this.show_warning({type: "Session Expired", data: { message: _t("Your Zest ERP session expired. Please refresh the current web page.") }});
             return;
         }
         if (_.has(map_title, error.data.exception_type)) {
