@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Odoo</title>
+  <title>Zest ERP</title>
   <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/web/static/lib/fontawesome/css/font-awesome.css">
   <link rel="stylesheet" href="/web/static/lib/bootstrap/css/bootstrap.css">
@@ -20,7 +20,7 @@
           $(ev.target).siblings('input').prop('type','password');
       });
       // db modal
-      $('body').on('click','.o_database_action', function(ev) {
+      $('body').on('click','.o_database_action', function(ev) {z
           ev.preventDefault();
           var db = $(ev.currentTarget).data('db');
           var target = $(ev.currentTarget).data('target');
@@ -53,7 +53,7 @@
 {%- endmacro %}
 
 {% macro create_form() -%}
-  <p>Odoo is up and running! <br />
+  <p>Zest ERP is up and running! <br />
   Create a new database by filling out the form,
   you'll be able to install your first app in a minute.</p>
   {{ master_input() }}
@@ -104,7 +104,7 @@
       <label>
         <input name="demo" type="checkbox" class="pull-right" value="1">
         <span>Load demonstration data</span>
-        <span class="text-muted"> (Check this box to evaluate Odoo)</span>
+        <span class="text-muted"> (Check this box to evaluate Zest ERP)</span>
       </label>
     </div>
   </div>
@@ -212,7 +212,7 @@
             </div>
             <div class="form-group">
                 <label for="copy">This database might have been moved or copied.</label>
-                <p class="help-block">In order to avoid conflicts between databases, Odoo needs to know if this database was moved or copied.
+                <p class="help-block">In order to avoid conflicts between databases, Zest ERP needs to know if this database was moved or copied.
                 If you don't know, answer "This database is a copy".</p>
               <div class="radio">
                 <label>

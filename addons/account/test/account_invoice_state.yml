@@ -42,7 +42,7 @@
     assert (len(moves) > 0), 'You should have multiple moves'
     moves[0].journal_id.write({'update_posted': True})
 -
-  In order to check the "Cancel Selected Invoices" wizard in odoo I cancelled this open invoice using this wizard
+  In order to check the "Cancel Selected Invoices" wizard in Zest ERP I cancelled this open invoice using this wizard
 -
   !record {model: account.invoice.cancel, id: account_invoice_cancel_0}:
     {}
