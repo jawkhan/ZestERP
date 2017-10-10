@@ -22,7 +22,7 @@
                               <div>
                                   <field name="module_project_forecast" widget="upgrade_boolean"/>
                                   <label for="module_project_forecast"/>
-                                  <a href="#" target="_blank"> More Info </a>
+                                  <!--<a href="#" target="_blank"> More Info </a>-->
                               </div>
                          </div>
                         <field name="module_rating_project" widget="radio"/>
