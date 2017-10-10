@@ -112,7 +112,7 @@
                             <label for="module_website_version"/>
                             <div>
                                 <field name="module_website_version" widget="upgrade_radio"/>
-                                <a href="#" target="_blank"> More Info</a>
+                                <!--<a href="#" target="_blank"> More Info</a>-->
                             </div>
                         </group>
                         <group string="Performance Optimization" name="optimization" groups="base.group_no_one">

@@ -15,7 +15,7 @@
                         <div>
                             <field name="module_mass_mailing_themes" widget="upgrade_boolean"/>
                             <label for="module_mass_mailing_themes" invisible="1"/>
-                            <a href="#" target="_blank"> More Info </a>
+                            <!--<a href="#" target="_blank"> More Info </a>-->
                         </div>
                     </group>
                 </form>

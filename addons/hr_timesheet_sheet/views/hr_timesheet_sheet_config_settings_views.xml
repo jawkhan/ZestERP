@@ -15,7 +15,7 @@
                 <div>
                     <field name="module_project_timesheet_synchro" widget="upgrade_boolean"/>
                     <label for="module_project_timesheet_synchro"/>
-                    <a href="#" target="_blank"> More Info </a>
+                    <!--<a href="#" target="_blank"> More Info </a>-->
                 </div>
             </xpath>
         </field>

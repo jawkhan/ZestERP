@@ -645,7 +645,7 @@
                         </div>
                         <div class="small mt16">
                             <a href="#" class="btn btn-sm btn-primary">Registration</a>
-                            <a href="#" class="btn btn-sm btn-link" style="margin-left:10px">More Info</a>
+                            <!--<a href="#" class="btn btn-sm btn-link" style="margin-left:10px">More Info</a>-->
                         </div>
                     </td>
                 </tr>
