@@ -17,31 +17,31 @@
                     <field name="module_website_sale_delivery" invisible="1"/>
                     <field name="module_delivery" invisible="1"/>
                     <field name="sale_delivery_settings" widget="radio"/>
-                    <label for="module_delivery_ups" string="Shipping Connectors"/>
-                    <div>
-                        <div>
-                            <field name="module_delivery_ups" widget="upgrade_boolean"/>
-                            <label for="module_delivery_ups"/>
-                        </div><div>
-                            <field name="module_delivery_fedex" widget="upgrade_boolean"/>
-                            <label for="module_delivery_fedex"/>
-                        </div><div>
-                            <field name="module_delivery_temando" widget="upgrade_boolean"/>
-                            <label for="module_delivery_temando"/>
-                        </div><div>
-                            <field name="module_delivery_usps" widget="upgrade_boolean"/>
-                            <label for="module_delivery_usps"/>
-                        </div><div>
-                            <field name="module_delivery_dhl" widget="upgrade_boolean"/>
-                            <label for="module_delivery_dhl"/>
-                        </div>
-                    </div>
-                    <label for="module_sale_ebay" string="Merchant Connectors"/>
-                    <div>
-                        <field name="module_sale_ebay" widget="upgrade_boolean"/>
-                        <label for="module_sale_ebay"/>
-                        <!--<a href="#" target="_blank"> More Info</a>-->
-                    </div>
+                    <!--<label for="module_delivery_ups" string="Shipping Connectors"/>-->
+                    <!--<div>-->
+                        <!--<div>-->
+                            <!--<field name="module_delivery_ups" widget="upgrade_boolean"/>-->
+                            <!--<label for="module_delivery_ups"/>-->
+                        <!--</div><div>-->
+                            <!--<field name="module_delivery_fedex" widget="upgrade_boolean"/>-->
+                            <!--<label for="module_delivery_fedex"/>-->
+                        <!--</div><div>-->
+                            <!--<field name="module_delivery_temando" widget="upgrade_boolean"/>-->
+                            <!--<label for="module_delivery_temando"/>-->
+                        <!--</div><div>-->
+                            <!--<field name="module_delivery_usps" widget="upgrade_boolean"/>-->
+                            <!--<label for="module_delivery_usps"/>-->
+                        <!--</div><div>-->
+                            <!--<field name="module_delivery_dhl" widget="upgrade_boolean"/>-->
+                            <!--<label for="module_delivery_dhl"/>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<label for="module_sale_ebay" string="Merchant Connectors"/>-->
+                    <!--<div>-->
+                        <!--<field name="module_sale_ebay" widget="upgrade_boolean"/>-->
+                        <!--<label for="module_sale_ebay"/>-->
+                        <!--&lt;!&ndash;<a href="#" target="_blank"> More Info</a>&ndash;&gt;-->
+                    <!--</div>-->
                     <label string="Default Sales Team" for="salesteam_id" groups="base.group_no_one"/>
                     <div groups="base.group_no_one" class="oe_inline">
                         <field name="salesteam_id"/>

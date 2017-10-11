@@ -23,14 +23,14 @@
                         <field name="module_pos_discount" widget="radio"/>
                         <field name="module_pos_mercury" widget="radio"/>
                         <field name="module_pos_reprint" widget="radio"/>
-                        <label for="module_pos_loyalty"/>
-                        <div>
-                              <div>
-                                  <field name="module_pos_loyalty" widget="upgrade_boolean"/>
-                                  <label for="module_pos_loyalty" string="Manage loyalty program with points and rewards for customers"/>
-                                  <!--<a href="#" target="_blank"> More Info</a>-->
-                              </div>
-                        </div>
+                        <!--<label for="module_pos_loyalty"/>-->
+                        <!--<div>-->
+                              <!--<div>-->
+                                  <!--<field name="module_pos_loyalty" widget="upgrade_boolean"/>-->
+                                  <!--<label for="module_pos_loyalty" string="Manage loyalty program with points and rewards for customers"/>-->
+                                  <!--&lt;!&ndash;<a href="#" target="_blank"> More Info</a>&ndash;&gt;-->
+                              <!--</div>-->
+                        <!--</div>-->
                     </group>
                 </form>
             </field>

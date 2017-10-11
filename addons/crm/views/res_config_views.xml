@@ -27,21 +27,21 @@
                             </div>
                         </div>
                         <field name="group_use_lead" widget="radio"/>
-                        <label for="module_crm_voip" string="Voip integration"/>
-                        <div>
-                            <field name="module_crm_voip" widget="upgrade_boolean" class="oe_inline"/>
-                            <label for="module_crm_voip" invisible="1"/>
-                            <!--<a href="#" target="_blank"> More Info </a>-->
-                        </div>
+                        <!--<label for="module_crm_voip" string="Voip integration"/>-->
+                        <!--<div>-->
+                            <!--<field name="module_crm_voip" widget="upgrade_boolean" class="oe_inline"/>-->
+                            <!--<label for="module_crm_voip" invisible="1"/>-->
+                            <!--&lt;!&ndash;<a href="#" target="_blank"> More Info </a>&ndash;&gt;-->
+                        <!--</div>-->
                     </group>
-                    <group string="Zest ERP Sign" name="config_sign">
-                        <label for="module_website_sign" string="Zest ERP Sign"/>
-                        <div>
-                            <field name="module_website_sign" widget="upgrade_boolean" class="oe_inline"/>
-                            <label for="module_website_sign" invisible="1"/>
-                            <!--<a href="#" target="_blank"> More Info </a>-->
-                        </div>
-                    </group>
+                    <!--<group string="Zest ERP Sign" name="config_sign">-->
+                        <!--<label for="module_website_sign" string="Zest ERP Sign"/>-->
+                        <!--<div>-->
+                            <!--<field name="module_website_sign" widget="upgrade_boolean" class="oe_inline"/>-->
+                            <!--<label for="module_website_sign" invisible="1"/>-->
+                            <!--&lt;!&ndash;<a href="#" target="_blank"> More Info </a>&ndash;&gt;-->
+                        <!--</div>-->
+                    <!--</group>-->
                 </div>
             </field>
         </record>

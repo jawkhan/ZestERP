@@ -109,11 +109,11 @@
                             </div>
                             <field name="module_website_form_editor" widget="radio"/>
 
-                            <label for="module_website_version"/>
-                            <div>
-                                <field name="module_website_version" widget="upgrade_radio"/>
-                                <!--<a href="#" target="_blank"> More Info</a>-->
-                            </div>
+                            <!--<label for="module_website_version"/>-->
+                            <!--<div>-->
+                                <!--<field name="module_website_version" widget="upgrade_radio"/>-->
+                                <!--&lt;!&ndash;<a href="#" target="_blank"> More Info</a>&ndash;&gt;-->
+                            <!--</div>-->
                         </group>
                         <group string="Performance Optimization" name="optimization" groups="base.group_no_one">
                             <label for="id" string="Speed"/>

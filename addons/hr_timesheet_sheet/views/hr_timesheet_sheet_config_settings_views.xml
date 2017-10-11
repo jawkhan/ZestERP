@@ -11,12 +11,12 @@
             </xpath>
             <xpath expr="//group[@name='timesheets']" position="inside">
                 <field name="timesheet_range" required="1" class="oe_inline"/>
-                <label for="id" string="Extra features"/>
-                <div>
-                    <field name="module_project_timesheet_synchro" widget="upgrade_boolean"/>
-                    <label for="module_project_timesheet_synchro"/>
-                    <!--<a href="#" target="_blank"> More Info </a>-->
-                </div>
+                <!--<label for="id" string="Extra features"/>-->
+                <!--<div>-->
+                    <!--<field name="module_project_timesheet_synchro" widget="upgrade_boolean"/>-->
+                    <!--<label for="module_project_timesheet_synchro"/>-->
+                    <!--&lt;!&ndash;<a href="#" target="_blank"> More Info </a>&ndash;&gt;-->
+                <!--</div>-->
             </xpath>
         </field>
     </record>
