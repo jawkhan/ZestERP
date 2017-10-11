@@ -72,13 +72,13 @@
                         </div>
                     </group>
                     <group attrs="{'invisible': [('group_multi_company','=',False)]}">
-                        <label for="module_inter_company_rules" string="Inter company"/>
-                        <div name="inter_company">
-                            <div name="module_inter_company_rules">
-                                <field name="module_inter_company_rules" class="oe_inline" widget="upgrade_boolean"/>
-                                <label for="module_inter_company_rules"/>
-                            </div>
-                        </div>
+                        <!--<label for="module_inter_company_rules" string="Inter company"/>-->
+                        <!--<div name="inter_company">-->
+                            <!--<div name="module_inter_company_rules">-->
+                                <!--<field name="module_inter_company_rules" class="oe_inline" widget="upgrade_boolean"/>-->
+                                <!--<label for="module_inter_company_rules"/>-->
+                            <!--</div>-->
+                        <!--</div>-->
                     </group>
                     <group string="Shared resources" name="company_share_resources" attrs="{'invisible': [('group_multi_company','=',False)]}">
                         <field name="company_share_partner" class="oe_inline" />

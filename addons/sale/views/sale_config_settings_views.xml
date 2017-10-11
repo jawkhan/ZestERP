@@ -41,12 +41,12 @@
                             <field name="group_show_price_subtotal" class="oe_inline" invisible="1"/>
                             <field name="group_show_price_total" class="oe_inline" invisible="1"/>
                         </div>
-                        <label for="id" string="Subscriptions"/>
-                        <div>
-                            <field name="module_sale_contract" class="oe_inline" widget="upgrade_boolean"/>
-                            <label for="module_sale_contract"/>
-                            <!--<a href="#" target="_blank"> More Info</a>-->
-                        </div>
+                        <!--<label for="id" string="Subscriptions"/>-->
+                        <!--<div>-->
+                            <!--<field name="module_sale_contract" class="oe_inline" widget="upgrade_boolean"/>-->
+                            <!--<label for="module_sale_contract"/>-->
+                            <!--&lt;!&ndash;<a href="#" target="_blank"> More Info</a>&ndash;&gt;-->
+                        <!--</div>-->
                     </group>
                     <group string="Customers" name="customers">
                         <field name="module_website_quote" widget="radio"/>

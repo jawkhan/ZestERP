@@ -3,7 +3,7 @@
 <templates id="template">
     <t t-name="PlannerLauncher">
         <li class="o_planner_systray hidden-xs">
-            <div class="progress"><div class="progress-bar"/></div>
+            <!--<div class="progress"><div class="progress-bar"/></div>-->
         </li>
     </t>
 

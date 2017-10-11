@@ -17,14 +17,14 @@
                             <field name="project_time_mode_id" domain="[('category_id','=', %(product.uom_categ_wtime)d)]" class="oe_inline"/>
                         </div>
                         <field name="module_pad" widget="radio"/>
-                        <label for="id" string="Forecasts"/>
-                        <div>
-                              <div>
-                                  <field name="module_project_forecast" widget="upgrade_boolean"/>
-                                  <label for="module_project_forecast"/>
-                                  <!--<a href="#" target="_blank"> More Info </a>-->
-                              </div>
-                         </div>
+                        <!--<label for="id" string="Forecasts"/>-->
+                        <!--<div>-->
+                              <!--<div>-->
+                                  <!--<field name="module_project_forecast" widget="upgrade_boolean"/>-->
+                                  <!--<label for="module_project_forecast"/>-->
+                                  <!--&lt;!&ndash;<a href="#" target="_blank"> More Info </a>&ndash;&gt;-->
+                              <!--</div>-->
+                         <!--</div>-->
                         <field name="module_rating_project" widget="radio"/>
                     </group>
                     <group name="timesheets"/>

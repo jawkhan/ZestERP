@@ -30,7 +30,7 @@
                     </ul>
                     <p>Enjoy your Zest ERP experience,</p>
                     <div class="mt32">
-                        <img class="signature mb8" src="/web_planner/static/src/img/fabien_signature.png"/>
+                        <!--<img class="signature mb8" src="/web_planner/static/src/img/fabien_signature.png"/>-->
                         <address>
                             For the Zest ERP Team,<br/>
                             Fabien Pinckaers, Founder
