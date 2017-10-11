@@ -20,7 +20,7 @@
                     <div class="mt32">
                         <address>
                             For the Zest ERP Team,<br/>
-                            Fabien Pinckaers, Founder
+
                         </address>
                     </div>
                 </div>
@@ -205,53 +205,53 @@
                                 <span class="fa fa-credit-card fa-4x"></span>
                                 <h3><strong>eCommerce</strong></h3>
                                 <p>Boost your online sales with sleek product pages.</p>
-                                <a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_sale')" target="_blank" class="btn odoo_purple">
-                                    <span class="fa fa-arrow-circle-o-down"/> Install now
-                                </a>
+                                <!--<a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_sale')" target="_blank" class="btn odoo_purple">-->
+                                    <!--<span class="fa fa-arrow-circle-o-down"/> Install now-->
+                                <!--</a>-->
                             </div>
 
                             <div class="text-center col-md-4 col-xs-6">
                                 <span class="fa fa-file-text-o fa-4x"></span>
                                 <h3><strong>Contact Form</strong></h3>
                                 <p>Publish a contact form to fill in your CRM pipeline.</p>
-                                <a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_crm')" target="_blank" class="btn odoo_purple">
-                                    <span class="fa fa-arrow-circle-o-down"/> Install now
-                                </a>
+                                <!--<a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_crm')" target="_blank" class="btn odoo_purple">-->
+                                    <!--<span class="fa fa-arrow-circle-o-down"/> Install now-->
+                                <!--</a>-->
                             </div>
 
                             <div class="text-center col-md-4 col-xs-6">
                                 <span class="fa fa-rss fa-4x"></span>
                                 <h3><strong>Blogs</strong></h3>
                                 <p>Attract more visitors with a content marketing strategy.</p>
-                                <a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_blog')" target="_blank" class="btn odoo_purple">
-                                <span class="fa fa-arrow-circle-o-down"/> Install now</a>
+                                <!--<a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_blog')" target="_blank" class="btn odoo_purple">-->
+                                <!--<span class="fa fa-arrow-circle-o-down"/> Install now</a>-->
                             </div>
 
                             <div class="text-center col-md-4 col-xs-6">
                                 <span class="fa fa-male fa-4x"></span>
                                 <h3><strong>Jobs</strong></h3>
                                 <p>Promote your job announces and attract new talents.</p>
-                                <a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_hr_recruitment')" target="_blank" class="btn odoo_purple">
-                                    <span class="fa fa-arrow-circle-o-down"/> Install now
-                                </a>
+                                <!--<a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_hr_recruitment')" target="_blank" class="btn odoo_purple">-->
+                                    <!--<span class="fa fa-arrow-circle-o-down"/> Install now-->
+                                <!--</a>-->
                             </div>
 
                             <div class="text-center col-md-4 col-xs-6">
                                 <span class="fa fa-refresh fa-4x"></span>
                                 <h3><strong>Subscriptions</strong></h3>
                                 <p>Sell subscriptions and manage recurring payments.</p>
-                                <a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_contract')" target="_blank" class="btn odoo_purple">
-                                    <span class="fa fa-arrow-circle-o-down"/> Install now
-                                </a>
+                                <!--<a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_contract')" target="_blank" class="btn odoo_purple">-->
+                                    <!--<span class="fa fa-arrow-circle-o-down"/> Install now-->
+                                <!--</a>-->
                             </div>   
 
                             <div class="text-center col-md-4 col-xs-6">
                                 <span class="fa fa-ticket fa-4x"></span>
                                 <h3><strong>Event Tickets</strong></h3>
                                 <p>Organize events and sell tickets online.</p>
-                                <a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_event_sale')" target="_blank" class="btn odoo_purple">
-                                    <span class="fa fa-arrow-circle-o-down"/> Install now
-                                </a>
+                                <!--<a t-att-href="prepare_backend_url('base.open_module_tree', 'form', 'website_event_sale')" target="_blank" class="btn odoo_purple">-->
+                                    <!--<span class="fa fa-arrow-circle-o-down"/> Install now-->
+                                <!--</a>-->
                             </div>                          
 
                             <div class="clearfix hidden-xs mb16"></div>
