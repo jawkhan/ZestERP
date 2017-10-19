@@ -493,7 +493,7 @@
                     <small>Zest ERP Version <t t-raw="version.get('server_version')"/></small>
                 </h1>
                 <p>
-                    Information about the <t t-esc="res_company.name"/> instance of Zest ERP</a>.
+                    <a>Information about the <t t-esc="res_company.name"/> instance of Zest ERP</a>.
                 </p>
 
                 <div class="alert alert-warning alert-dismissable mt16" groups="website.group_website_publisher">

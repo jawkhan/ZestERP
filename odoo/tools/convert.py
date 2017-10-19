@@ -895,6 +895,7 @@ def convert_csv_import(cr, module, fname, csvcontent, idref=None, mode='init',
         raise Exception(_('Module loading %s failed: file %s could not be processed:\n %s') % (module, fname, warning_msg))
 
 def convert_xml_import(cr, module, xmlfile, idref=None, mode='init', noupdate=False, report=None):
+    print xmlfile
     doc = etree.parse(xmlfile)
     relaxng = etree.RelaxNG(
         etree.parse(os.path.join(config['root_path'],'import_xml.rng' )))
